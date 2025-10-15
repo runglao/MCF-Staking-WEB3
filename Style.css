@@ -180,7 +180,10 @@ footer {
     color: white; 
     text-align: center; 
     padding: 20px; 
-    margin-top: auto; 
+    margin-top: auto;
+    background: linear-gradient(-45deg, #2c3e50, #4ca1af, #2c3e50, #4ca1af);
+    background-size: 400% 400%;
+    animation: gradientShift 15s ease infinite;
 }
 
 .social-links a { 
@@ -240,4 +243,5 @@ footer {
     100% {
         background-position: 0% 50%;
     }
+
 }
